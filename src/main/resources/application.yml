@@ -13,8 +13,9 @@ spring:
 # = Mysql configurations
 # ===============================
   datasource:
-    url: jdbc:mysql://localhost:3306/spring?useUnicode=true&characterEncoding=UTF8&useSSL=false
+    #url: jdbc:mysql://localhost:3306/spring?useUnicode=true&characterEncoding=UTF8&useSSL=false
     #url: jdbc:mysql://192.168.11.122:30306/spring?useUnicode=true&characterEncoding=UTF8&useSSL=false
+    url: jdbc:mysql://mysql:3306/spring?useUnicode=true&characterEncoding=UTF8&useSSL=false
     username: root
     password: qujian123
 
@@ -23,7 +24,7 @@ spring:
 # ===============================ß
   redis:
     database: 0
-    host: localhost
+    host: redis
     port: 6379
     password:
     pool:
