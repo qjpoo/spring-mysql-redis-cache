@@ -24,7 +24,7 @@ spring:
 # ===============================ß
   redis:
     database: 0
-    host: redis-0.redis
+    host: 10.10.13.200
     port: 6379
     password:
     pool:
