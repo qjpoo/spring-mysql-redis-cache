@@ -66,10 +66,10 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: "nginx"
 spec:
-  tls:
-  - hosts:
-    - spring.scm.local
-    #secretName: dimpleblog-ingress-secret
+  #tls:
+  #- hosts:
+  #  - spring.scm.local
+  #  #secretName: dimpleblog-ingress-secret
   rules:
   - host: spring.scm.local
     http:
