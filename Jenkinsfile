@@ -2,15 +2,22 @@
 def registry = "harbor.scm.local"
 
 // 项目&镜像配置信息
+#harbor的namespace
 def namespace = "jian"
+# app name
 def app_name = "spring"
 def image_name = "${registry}/${namespace}/${app_name}:${BUILD_NUMBER}"
+# gitlab address
 def git_address = "git@192.168.11.161:qujian/spring-mysql-redis-cache.git"
 
 // 认证信息ID
+# connection harbor username and password
 def docker_registry_auth = "dockerHub"
+# gitlab auth info
 def git_auth = "64ebab93-e58b-4ced-acc2-993029390661"
+# k8s pull image auth info
 def secret_name = "registry-secret"
+# connection k8s kubeconfig info
 def k8s_auth = "kubeconfig"
 
 
