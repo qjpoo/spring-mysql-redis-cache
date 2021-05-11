@@ -2,7 +2,7 @@
 Spring Boot Mysql Redis  REST API Cache example
 
 ##
-### 
+###  注意点
 ```
 这里对mysql的地址没有什么限制, 但是对redis有一定的限制,配置文件和代码里面的要一样
 配置文件里面的
